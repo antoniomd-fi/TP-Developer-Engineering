@@ -25,8 +25,30 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.6.0</version>
+      <scope>test</scope>
+    </dependency>
+  
+    <dependency>
+      <groupId>com.amdocs.zusammen</groupId>
+      <artifactId>zusammen-commons-utils</artifactId>
+      <version>1.0.3</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>org.connid.bundles</groupId>
+      <artifactId>org.connid.bundles.openam</artifactId>
+      <version>0.4.1</version>
+    </dependency>
+
+    
   </dependencies>
 
+  
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
